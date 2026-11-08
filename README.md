@@ -82,6 +82,26 @@ python serve.py
 
 公网地址由 Cloudflare Quick Tunnel 提供，没有 uptime 保证；隧道进程停止后地址失效。本地服务器与隧道需保持运行。
 
+## 永久链接（GitHub Pages）
+
+项目已用 git 保存。要获得永久链接：
+
+1. 在 GitHub 生成 Personal Access Token（Settings → Developer settings → Tokens，勾选 `repo` 权限）。
+2. 运行：
+
+```powershell
+.\deploy_github.ps1 -Username <你的GitHub用户名>
+# 按提示粘贴 Token
+```
+
+脚本会自动创建仓库 `mono-run`、推送代码、启用 GitHub Pages，并输出永久链接：
+
+```
+https://<你的GitHub用户名>.github.io/mono-run/
+```
+
+静态托管版游戏完整可玩，个人最高分保存在浏览器本地；金币/距离全球排行榜需要本仓库的服务端（`python serve.py`），静态版下排行榜会显示离线提示。
+
 ## 已验证
 
 - 桌面 1440×900、移动端 390×844 布局无横向溢出
