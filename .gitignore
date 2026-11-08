@@ -1,0 +1,8 @@
+# Runtime data
+.data/
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
