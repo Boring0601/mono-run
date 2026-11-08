@@ -75,9 +75,11 @@ python serve.py
 - `.data/leaderboard.json` — 排行榜持久化数据（运行时生成）
 - `v10-*.png` — 金币拾取、金币结算与金币排行榜验收截图
 
-## 公网演示
+## 永久链接（GitHub Pages）
 
-- 公网地址：<https://ellis-pacific-contribution-gaps.trycloudflare.com>
+- **永久地址**：<https://boring0601.github.io/mono-run/>
+- 仓库：<https://github.com/Boring0601/mono-run>
+- 隧道地址（含排行榜服务端，随进程存活）：<https://ellis-pacific-contribution-gaps.trycloudflare.com>
 - 本地地址：<http://127.0.0.1:8080>
 
 公网地址由 Cloudflare Quick Tunnel 提供，没有 uptime 保证；隧道进程停止后地址失效。本地服务器与隧道需保持运行。
