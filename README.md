@@ -77,7 +77,7 @@ python serve.py
 
 ## 公网演示
 
-- 公网地址：<https://complete-boulevard-assumptions-listed.trycloudflare.com>
+- 公网地址：<https://ellis-pacific-contribution-gaps.trycloudflare.com>
 - 本地地址：<http://127.0.0.1:8080>
 
 公网地址由 Cloudflare Quick Tunnel 提供，没有 uptime 保证；隧道进程停止后地址失效。本地服务器与隧道需保持运行。
